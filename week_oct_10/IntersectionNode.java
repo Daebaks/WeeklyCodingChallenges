@@ -5,10 +5,10 @@ import java.util.LinkedList;
 public class IntersectionNode {
 
 	/**
-	 * 
-	 * @param a
-	 * @param b
-	 * @return
+	 * Method to test for intersection node, assuming there is only 1 or none
+	 * @param a -> First LinkedList arg
+	 * @param b -> Second LinkedList arg
+	 * @return A string contains the node (point), or no intersection was found
 	 */
 	public static String checkIntersection(LinkedList a, LinkedList b) {
 

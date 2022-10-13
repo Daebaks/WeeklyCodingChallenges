@@ -5,9 +5,9 @@ import java.util.LinkedList;
 public class LoopDetector {
 
 	/**
-	 * Method to check whether a LinkedList is circular and returns 
+	 * Method to check whether a LinkedList is circular and returns the node and it's value if true
 	 * @param a -> The LinkedList to test
-	 * @return
+	 * @return a string contains the node+value, or no circulation detected
 	 */
 	public static String detect(LinkedList a) {
 		
